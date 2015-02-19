@@ -160,25 +160,67 @@
         <version>${version.org.jbpm}</version>
         <classifier>sources</classifier>
       </dependency>
+ <!--dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-entitymanager</artifactId>
+        <version>4.3.8.Final</version>
+      </dependency>
+      <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-core</artifactId>
+        <version>4.3.8.Final</version>
+      </dependency-->
  <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-search-orm</artifactId>
             <version>4.4.6.Final</version>
+            <!--version>5.0.1.Final</version-->
         </dependency>
+<!--dependency>
+        <groupId>org.hibernate.common</groupId>
+        <artifactId>hibernate-commons-annotations</artifactId>
+        <version>4.0.5.Final</version>
+      </dependency>
+      <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-search-infinispan</artifactId>
+        <version>5.0.1.Final</version>
+      </dependency>
+      <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-search-modules</artifactId>
+        <version>5.0.1.Final</version>
+        <type>zip</type>
+        <classifier>jbossas-72-dist</classifier>
+      </dependency>
+      <dependency>
+        <groupId>org.hibernate.javax.persistence</groupId>
+        <artifactId>hibernate-jpa-2.1-api</artifactId>
+        <version>1.0.0.Final</version>
+      </dependency-->
          <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-search-engine</artifactId>
-            <version>4.4.6.Final</version>
+<version>4.4.6.Final</version>
+            <!--version>5.0.1.Final</version-->
         </dependency>
   <dependency>
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-core</artifactId>
             <version>3.6.2</version>
+           <!--version>4.10.3</version--> 
          </dependency>
 <dependency>
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-queryparser</artifactId>
-           <version>3.6.2</version>
+            <version>3.6.2</version>
+           <!--version>4.10.3</version-->
+         </dependency>
+  <dependency>
+            <groupId>org.apache.lucene</groupId>
+            <artifactId>lucene-analyzers-common</artifactId>
+            <version>3.6.2</version>
+           <!--version>4.10.3</version-->
          </dependency>
       <dependency>
         <groupId>org.jbpm</groupId>

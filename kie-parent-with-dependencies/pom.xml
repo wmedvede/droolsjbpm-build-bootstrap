@@ -34,6 +34,7 @@
     <version.com.rht-emitrom.lienzo-core>1.2.1-RELEASE</version.com.rht-emitrom.lienzo-core>
     <version.jakarta-regexp>1.4</version.jakarta-regexp>
     <version.org.apache.lucene>3.6.2</version.org.apache.lucene>
+    <!--version.org.apache.lucene>4.10.3</version.org.apache.lucene-->
     <version.org.apache.xmlgraphics.batik>1.6-1</version.org.apache.xmlgraphics.batik>
     <version.org.apache.xmlgraphics.commons>1.4</version.org.apache.xmlgraphics.commons>
     <version.org.apache.xmlgraphics.fop>0.95</version.org.apache.xmlgraphics.fop>
